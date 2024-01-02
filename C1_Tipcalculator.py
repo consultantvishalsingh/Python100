@@ -12,10 +12,12 @@ print(z)
 print(a)
 
 # Converting to Int (for(i=0;i<len(sud_ht);i++)   
+total_height,nos = 0,0
 student_heights = input().split()
 for n in range(0, len(student_heights)):
-  student_heights[n] = int(student_heights[n])
-  
+  student_heights[n] = int(student_heights[n]) #Same Name List is needed to change to Int else it will give little trouble
+   total_height += height
+   number_of_students += 1
 """
 
 
